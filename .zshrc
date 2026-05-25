@@ -129,3 +129,7 @@ PROMPT='%B%(!.#.$)%b '
 # Load local overrides (not committed to git)
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
 export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
+export ZSH="$HOME/.oh-my-zsh"
+ZSH_THEME="agnoster"
+plugins=(git)
+source $ZSH/oh-my-zsh.sh
