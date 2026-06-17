@@ -168,5 +168,3 @@
 [user]
         name = tbuckets-dev
         email = twitt23@gmail.com
-[gpg]
-	program = /opt/homebrew/bin/gpg
