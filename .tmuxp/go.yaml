@@ -1,0 +1,15 @@
+session_name: go
+start_directory: /Users/taylorwitt/Documents/Git/Go
+windows:
+  - window_name: code
+    layout: main-vertical
+    panes:
+      - blank
+      - blank
+  - window_name: git
+    panes:
+      - shell_command:
+         - git status
+  - window_name: server
+    panes:
+	  - blank

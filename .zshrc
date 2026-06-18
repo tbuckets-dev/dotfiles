@@ -5,7 +5,7 @@ export EDITOR=nvim               # default editor (also try nvim, nano, code)
 export VISUAL=$EDITOR
 export PAGER=less
 export LANG=en_US.UTF-8
-
+export DISABLE_AUTO_TITLE='true'
 # Add your local bin to PATH
 export PATH="$HOME/.local/bin:$HOME/bin:$PATH"
 
@@ -84,7 +84,7 @@ alias zshrc='$EDITOR ~/.zshrc && source ~/.zshrc'
 mkcd() { mkdir -p "$1" && cd "$1" }
 
 # Show PATH entries one per line
-path() { echo "$PATH" | tr ':' '\n' }
+path_list() { echo "$PATH" | tr ':' '\n' }
 
 # Quick HTTP server in current dir
 serve() { python3 -m http.server "${1:-8000}" }
