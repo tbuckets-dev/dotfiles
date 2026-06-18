@@ -5,7 +5,8 @@ windows:
     layout: main-vertical
     panes:
       - blank
-      - blank
+	  - shell_command:
+         - la
   - window_name: git
     panes:
       - shell_command:
