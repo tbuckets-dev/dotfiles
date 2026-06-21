@@ -8,8 +8,9 @@ export LANG=en_US.UTF-8
 export DISABLE_AUTO_TITLE='true'
 # Add your local bin to PATH
 export PATH="$HOME/.local/bin:$HOME/bin:$PATH"
-
-# Add docker to PATH
+# Add venv to PATH
+#export PATH="$HOME/.local/bin:$HOME/.venv/bin"
+#Add docker to PATH
 export PATH="$PATH:$HOME/.docker/bin"
 
 # ──────────────────────────────────────────────

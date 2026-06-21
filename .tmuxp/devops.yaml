@@ -10,7 +10,7 @@ windows:
   - window_name: git
     panes:
       - shell_command:
-		 - ls
+         - ls
       - shell_command:
          - git status
   - window_name: tools
