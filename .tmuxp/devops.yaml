@@ -1,0 +1,18 @@
+session_name: devops
+start_directory: /Users/taylorwitt/Documents/Git/devops-hivebox
+windows:
+  - window_name: code
+    layout: main-vertical
+    panes:
+      - blank
+      - shell_command:
+         - la
+  - window_name: git
+    panes:
+      - shell_command:
+		 - ls
+      - shell_command:
+         - git status
+  - window_name: tools
+    panes:
+      - blank
